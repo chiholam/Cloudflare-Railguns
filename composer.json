@@ -1,0 +1,22 @@
+{
+    "name": "chiholam/cloudflarer-Railgun",
+    "type": "CHUNGTAT",
+    "homepage": "https://github.com/chiholam/cloudflarer-Railgun",
+    "description": "Cloudflare Partner Panel",
+    "keywords": ["cloudflare", "cdn"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CHUNGTAT",
+            "email": "INFO@CHUNGTAT.COM",
+            "homepage": "https://www.chungtat.cn"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "cloudflare/sdk": "^1.1",
+        "ext-curl": "*",
+        "ext-gettext": "*",
+        "ext-json": "*"
+    }
+}
