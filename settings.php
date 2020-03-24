@@ -6,15 +6,15 @@ if (@file_exists("../config.php")) {
 	require_once "config.php";
 }
 
-if (!defined('HOST_KEY') || !defined('HOST_MAIL') || HOST_KEY === 'ct8f24047a886371103f5a34861fd5e9' ||
-    HOST_MAIL === 'cloudflarepartner@cloudflare.com') {
+if (!defined('HOST_KEY') || !defined('HOST_MAIL') || HOST_KEY === 'e9e4498f0584b7098692512db0c62b48' ||
+    HOST_MAIL === 'ze3kr@example.com') {
     $no_api_key = true;
 } else {
     $no_api_key = false;
 }
 
 if (!isset($page_title)) {
-	$page_title = "CHUNGTAT";
+	$page_title = "TlOxygen";
 }
 
 /*
