@@ -109,8 +109,8 @@ if (isset($_GET['action']) && $_GET['action'] == 'analytics') {
 	echo '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">';
 }
 ?>
-	<meta name="description" content="CHUNGTAT Cloudflare Partners">
-	<meta name="keywords" content="CHUNGTAT, Cloudflare">
+	<meta name="description" content="TlOxygen Cloudflare Partners">
+	<meta name="keywords" content="TlOxygen, Cloudflare">
 	<title><?php
 if (isset($_GET['action'])) {
 	if ($_GET['action'] != 'login') {
@@ -223,8 +223,8 @@ default:
 ?>
 	</main>
 	<footer class="footer">
-	        <p><a href="https://cdn.spreets.net" target="_blank"><?php echo _('Management Domain'); ?></a></p><p><a href="https://www.chungtat.cn" target="_blank"><?php echo _('Huojia Technology Provides Services'); ?></a></p>
-			<p><a href="https://support.cloudflare.com/hc" target="_blank"><?php echo _('Cloudflare Support'); ?></a></p><?php
+			<p><a href="https://support.cloudflare.com/hc" target="_blank"><?php echo _('Cloudflare Support'); ?></a></p>
+			<p><a href="https://github.com/ZE3kr/Cloudflare-CNAME-Setup" target="_blank"><?php echo _('View on GitHub'); ?></a></p><?php
 if ((isset($is_beta) && $is_beta) || (isset($is_debug) && $is_debug)) {
 	$time = round(microtime(true) - $starttime, 3);
 	echo '<small><p>Beta Version / Load time: ' . $time . 's </p>';

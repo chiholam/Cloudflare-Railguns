@@ -1,9 +1,9 @@
 FROM alpine:3.8
-MAINTAINER FAN VINGA<cloudflarepartner@cloudflare.com> CLOUDFLARE<cloudflarepartner@cloudflare.com>
+MAINTAINER FAN VINGA<fanalcest@gmail.com> ZE3kr<ze3kr@icloud.com>
 
 ENV HOST_KEY=YOUR_CLOUDFLARE_API_KEY \
     HOST_MAIL=YOUR_CLOUDFLARE_MAIL   \
-    TITLE=CHUNGTAT                   
+    TITLE=TlOxygen                   
 
 COPY . /app
 RUN apk --no-cache --virtual runtimes add nginx           \
@@ -24,6 +24,6 @@ EXPOSE 80
 CMD cp /app/config.example.php /app/config.php && nginx                                     && \
     sed -i "s|e9e4498f0584b7098692512db0c62b48|${HOST_KEY}|g" /app/config.php               && \
     sed -i "s|ze3kr@example.com|${HOST_MAIL}|g"               /app/config.php               && \
-    sed -i "s|// \$page_title = \"CHUNGTAT\"|\$page_title = \"${TITLE}\"|g" /app/config.php && \
+    sed -i "s|// \$page_title = \"TlOxygen\"|\$page_title = \"${TITLE}\"|g" /app/config.php && \
     sed -i "s|// \$tlo_path = \"/\"|\$tlo_path = \"/\"|g" /app/config.php                   && \
     php-fpm7 --nodaemonize --fpm-config /etc/php7/php-fpm.conf -c /etc/php7/php.ini

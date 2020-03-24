@@ -2,9 +2,11 @@
 
 [Cloudflare Hosting Partner][1] 可以使用此项目为用户提供一个可视化的面板，可以让用户免费的使用 [CNAME 接入][2]。
 
-[cdn.chungtat.com][3] 是安装了这个面板的最新稳定版的网站，值得你的信任。
+[cf.tlo.xyz][3] 是安装了这个面板的最新稳定版的网站，值得你的信任。
 
-
+<blockquote>
+注意：[cf.tlo.xyz][3] 的 Host API key 似乎被 Cloudflare 停用了。因此，现在你不能在这个网站上使用密码登录，亦不能添加新的 CNAME 接入的域名。对于已经有 CNAME 接入的用户，依然可以通过 Global API Key（不是密码）的方式登录本站，管理自己域名下的 DNS 记录。
+</blockquote>
 
 ## 安装
 
@@ -66,9 +68,9 @@ This project was based on a [HOSTLOC topic][8].
 
 [1]:	https://www.cloudflare.com/partners/hosting-provider/
 [2]:	https://support.cloudflare.com/hc/en-us/articles/200168706-How-do-I-do-CNAME-setup-
-[3]:	https://cdn.chungtat.com
-[4]:	https://cdn.chungtat.com
-[5]:	https://github.com/chiholam/cloudflare-Railgun
+[3]:	https://cf.tlo.xyz
+[4]:	https://beta.cf.tlo.xyz
+[5]:	https://github.com/ZE3kr/Cloudflare-CNAME-Setup/wiki/%E5%AE%89%E8%A3%85
 [6]:	https://api.cloudflare.com/
 [7]:	https://www.cloudflare.com/ssl-for-saas-providers/
 [8]:	http://www.hostloc.com/thread-386441-1-1.html

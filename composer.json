@@ -1,15 +1,15 @@
 {
-    "name": "chiholam/cloudflarer-Railgun",
-    "type": "CHUNGTAT",
-    "homepage": "https://github.com/chiholam/cloudflarer-Railgun",
+    "name": "ZE3kr/Cloudflare-CNAME-Setup",
+    "type": "project",
+    "homepage": "https://github.com/ZE3kr/Cloudflare-CNAME-Setup",
     "description": "Cloudflare Partner Panel",
     "keywords": ["cloudflare", "cdn"],
     "license": "MIT",
     "authors": [
         {
-            "name": "CHUNGTAT",
-            "email": "INFO@CHUNGTAT.COM",
-            "homepage": "https://www.chungtat.cn"
+            "name": "ZE3kr",
+            "email": "ze3kr@icloud.com",
+            "homepage": "https://guozeyu.com"
         }
     ],
     "require": {
