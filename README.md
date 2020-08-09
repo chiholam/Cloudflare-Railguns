@@ -4,10 +4,10 @@ This project allows [Cloudflare Hosting Partner][1] to provide a panel for custo
 
 [查看中文版本][3]
 
-[cf.tlo.xyz][4] is the site installed the stable version of this panel. The software is up-to-date, and you can trust.
+[cdn.chungtat.com][4] is the site installed the stable version of this panel. The software is up-to-date, and you can trust.
 
 <blockquote>
-Notice: The Host API key of [cf.tlo.xyz][4] seems to be disabled by Cloudflare. As a result, this site lost the ability to login with Cloudflare password and adding new (CNAME setup) domains. Existing users who already have CNAME setup domains (provided by any partner), might still use this site to manage their domains’ DNS record. However, they must use global API keys instead of passwords.
+Notice: The Host API key of [cdn.chungtat.com][4] seems to be disabled by Cloudflare. As a result, this site lost the ability to login with Cloudflare password and adding new (CNAME setup) domains. Existing users who already have CNAME setup domains (provided by any partner), might still use this site to manage their domains’ DNS record. However, they must use global API keys instead of passwords.
 </blockquote>
 
 ## Installation
